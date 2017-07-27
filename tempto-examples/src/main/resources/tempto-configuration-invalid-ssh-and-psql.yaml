@@ -35,6 +35,8 @@ databases:
     jdbc_password: na
     jdbc_pooling: false
     table_manager_type: hive
+    analyze_immutable_tables: false
+    analyze_mutable_tables: false
 
   presto:
     jdbc_driver_class: com.facebook.presto.jdbc.PrestoDriver
